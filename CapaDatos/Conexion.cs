@@ -13,9 +13,6 @@ namespace CapaDatos
             var root = builder.Build();
             var CN = root.GetConnectionString("DefaultConnection");
             return CN;
-
-
-
         }
     }
 }
